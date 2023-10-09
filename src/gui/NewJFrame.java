@@ -46,7 +46,8 @@ public class NewJFrame extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("responsive form");
         setMaximizedBounds(new java.awt.Rectangle(500, 500, 640, 480));
-        setMinimumSize(new java.awt.Dimension(160, 120));
+        setMinimumSize(new java.awt.Dimension(240, 240));
+        setPreferredSize(new java.awt.Dimension(300, 300));
 
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Adatok"));
 
@@ -77,7 +78,7 @@ public class NewJFrame extends javax.swing.JFrame {
                     .addComponent(jLabel2, javax.swing.GroupLayout.Alignment.TRAILING))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.DEFAULT_SIZE, 157, Short.MAX_VALUE)
+                    .addComponent(jTextField1)
                     .addComponent(jTextField2))
                 .addContainerGap())
         );
